@@ -1,3 +1,7 @@
+/*Javascript is a dynamically typed language  like Python means we don't need to specify the type or datatype of variable 
+created or assigned...Eg:- C,C++ etc. are Statcally typed languages i.e datatype is defined during declaration.*/  
+
+
 const accountId=232435
 var password="213455"
 let email="vishal00@gmail.com"
