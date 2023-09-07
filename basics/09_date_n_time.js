@@ -1,7 +1,7 @@
-// const date=new Date()
-// console.log(date);
-// console.log(date.toString());
-// console.log(date.toLocaleString());
+const date=new Date()
+console.log(date);
+console.log(date.toString());
+console.log(date.toLocaleString());
 
 //In Js month start with 0--->Jan
 
@@ -24,4 +24,20 @@ let myCreateDate=new Date("02-13-2023") //MOST PREFERED FORMAT OF DATE
 
 console.log(Date.now());
 console.log(Math.floor(Date.now()/1000));
-console.log(myCreateDate.);
+console.log(myCreateDate.anyfunction);
+
+
+//MANY functions are there for accesing date,month,day etc. go to mdn web docs or console
+
+let myDate= new Date()
+console.log(mydate);
+let newDate = mydate.toLocaleString()
+console.log(myDate);
+console.log(myDate.getMonth());
+console.log(myDate.getDay());
+
+// myDate.toLocaleString('default',{
+//     weekday: 'long'
+// })
+
+
