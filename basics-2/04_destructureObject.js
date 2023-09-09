@@ -11,6 +11,7 @@ const {userName:name}=user
 console.log(name);
 
 //API's has JSON format---->javascript object notation
+
 1.
 //  {
 //     userName:'vishal',
