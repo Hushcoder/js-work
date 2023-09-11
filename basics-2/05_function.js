@@ -72,3 +72,45 @@ user3.greeting= function() {
     console.log("Hello user 3");
 }
 console.log(user3.greeting);
+
+
+//Rest operator is similar to spread operator.
+
+// function calculateCartPrice(...num1){
+//      return num1
+// }
+// console.log(calculateCartPrice(200 ,400, 500)); // gives [200,400,500]
+
+// function calculateCartPrice(val,val2, ...num1){
+//     return num1
+// }
+// console.log(calculateCartPrice(200 ,400, 500,2000));// gives a list of [500,2000]
+
+//Passing an object
+
+const user={
+    name:"vishal",
+    salary: "1.1Cr"
+}
+
+function handleObject(user){
+     console.log(`Username is ${user.name} and Pay is ${user.salary}.`);
+}
+// handleObject(user)
+//or pass direct object
+
+
+handleObject({
+    name:"vishal",
+    salary:"20Lakhs"
+
+})
+
+//Passing Array 
+
+const newArray=[1,2,3]
+
+function thirdValue(giveArray){
+    return giveArray[2]
+}
+console.log(thirdValue(newArray));
