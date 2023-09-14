@@ -36,12 +36,12 @@ else{
 
 // Nullish Coalescing Operator (??) :- null undefined.
 
-val1 = null ?? 10
-console.log(val1);----->returns 10 because this ?? checks Safety when value is  null and at place of 10 is assigned function as well.... 
+// val1 = null ?? 10
+// console.log(val1);----->returns 10 because this ?? checks Safety when value is  null and at place of 10 is assigned function as well.... 
 
-val2= null ?? 10 ?? 20
-console.log(val2);----->returns 10 that the first value assigned.
+// val2= null ?? 10 ?? 20
+// console.log(val2);----->returns 10 that the first value assigned.
 
-//Ternary Operator
+// //Ternary Operator
 
-condition ? true : false
+// condition ? true : false
