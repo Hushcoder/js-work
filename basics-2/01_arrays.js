@@ -1,6 +1,9 @@
 //arrays
 
 const Arr=[1,2,3,4,5]
+
+// arrays have key as well like objects by default it starts by 0 and are numbers only.
+
 // const Hero=["batman","spiderman","krishna"]
 // const newArr=["batman","harleyQuinn",1,2]
 
@@ -22,7 +25,7 @@ Arr.pop()
 
 Arr.unshift(10)  // Adds 10 to the beginning of the array.
 Arr.shift()      // deletes the added element.
-// console.log(Arr);
+console.log(Arr);
 
 console.log(Arr.includes(10));
 console.log(Arr.indexOf(3));
